@@ -12,6 +12,7 @@
         <module>API</module>
         <module>Core</module>
         <module>NMS</module>
+		<module>MC_1_21</module>
         <module>MC_1_21_3</module>
         <module>MC_1_21_4</module>
 		<module>MC_1_21_5</module>
