@@ -88,6 +88,7 @@ public class EnchantsPlugin extends NightPlugin implements ImprovedCommands {
             case MC_1_21 -> new Internal_1_21(this);
             case MC_1_21_3 -> new Internal_1_21_3(this);
             case MC_1_21_4 -> new Internal_1_21_4(this);
+			case MC_1_21_5 -> new Internal_1_21_5(this);
             default -> null;
         };
 
