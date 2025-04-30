@@ -29,15 +29,15 @@ jobs:
           remapped: true
           buildToolProvider: SpigotMC
 
-#      - uses: actions/checkout@v4
-#        with:
-#          repository: 'nulli0n/NexEngine-spigot'
-#          ref: 'v2.2.12-final'
-#          path: 'NexEngine'
-#
-#      - name: Install NexEngine
-#        run: mvn install
-#        working-directory: ./NexEngine
-#          
+      - uses: actions/checkout@v4
+        with:
+          repository: 'su.nightexpress.nightcore'
+          ref: '2.7.5.2'
+          path: 'nightcore'
+
+      - name: Install nightcore
+        run: mvn install
+        working-directory: ./nightcore
+          
       - name: Package plugin
         run: mvn package
